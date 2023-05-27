@@ -1,16 +1,15 @@
-**Malware Analysis date: 20230527**
-
-**Type : Wordpress Backdoor**
-
-**Author: Cedric Moris Kelly**
-
-**DISCLAIMER: This set of files is intended for malware analysis purposes only and should not be used for illegal activities.**
+**Malware Analysis date: 20230527**<br>
+**Malware Spotted on early 202305**<br>
+**Type : Wordpress Backdoor**<br>
+**Author: Cedric Moris Kelly**<br>
+<br>
+*DISCLAIMER: This set of files is intended for malware analysis purposes only and should not be used for illegal activities.*
 
 * Starts in /index.php at the root of a Wordpress install.
 * The file is a reverse shell which loads any PHP actions from https?://rkgqvfgevpgrg.bayvarebhgre.klm domain.
 * I need more time to investigate, but so far, the actions seem to be persistent through the $_COOKIE globals and can be executed at various entry points in the app directories by other files spread everywhere with random names (some are included in /backdoors_listener).
 
-*GPT4 auto generated explanation:*
+**GPT4 auto generated explanation about index.php:**
 1. The script starts with the opening `<?php` tag.
 2. It sets the time limit for script execution to 3600 seconds (1 hour) using `@set_time_limit(3600)`. This ensures that the script won't time out if it takes a long time to execute.
 3. It disables the ability for the user to abort the script using `@ignore_user_abort(1)`. This ensures that the script continues to run even if the user closes the browser or terminates the request.
