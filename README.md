@@ -6,7 +6,7 @@
 *DISCLAIMER: This set of files is intended for malware analysis purposes only and should not be used for illegal activities.*
 
 * Starts in /index.php at the root of a Wordpress install.
-* The file is a reverse shell which loads any PHP actions from https?://rkgqvfgevpgrg.bayvarebhgre.klm domain.
+* The file execute any PHP method on local host from a set of instructions on a remote domain, here https?://rkgqvfgevpgrg.bayvarebhgre.klm.
 * I need more time to investigate, but so far, the actions seem to be persistent through the $_COOKIE globals and can be executed at various entry points in the app directories by other files spread everywhere with random names (some are included in /backdoors_listener).
 
 **GPT4 auto generated explanation about index.php:**
