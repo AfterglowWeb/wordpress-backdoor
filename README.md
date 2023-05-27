@@ -1,6 +1,9 @@
 **Malware Analysis date: 20230527**
-*Type : Wordpress Backdoor*
-*Author: Cedric Moris Kelly*
+
+**Type : Wordpress Backdoor**
+
+**Author: Cedric Moris Kelly**
+
 **DISCLAIMER: This set of files is intended for malware analysis purposes only and should not be used for illegal activities.**
 
 * Starts in /index.php at the root of a Wordpress install.
